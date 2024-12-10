@@ -1,0 +1,11 @@
+point_of_sales:
+  outputs:
+    dev:
+      catalog: main
+      host: adb-XXXXXXXXXXXX.10.azuredatabricks.net
+      http_path: /sql/1.0/warehouses/29509ebXXXXXXXXXX
+      schema: altmiller
+      threads: 1
+      token: dapi64ae5XXXXXXXXXX
+      type: databricks
+  target: dev
